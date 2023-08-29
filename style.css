@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+#title {
+    font-size: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para dispositivos móviles y tablets */
+    .container {
+      width: 90%;
+      padding: 10px;
+    }
+  }
